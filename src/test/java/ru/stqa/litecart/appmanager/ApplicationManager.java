@@ -27,7 +27,7 @@ import java.util.concurrent.TimeUnit;
           }
           wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
           //wd.get(properties.getProperty("web.baseUrl"));
-          wd.get("http://localhost/litecart");
+          wd.get("http://localhost/litecart/admin/login.php");
       }
 
       public void stop () {

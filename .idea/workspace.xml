@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="Create project">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="Добавил в тест CatalogTests создание нового каталога">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/CatalogTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/CatalogTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/CatalogTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/OpenPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/OpenPageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,20 +55,7 @@
       <recent name="C:\Users\darkhorse\IdeaProjects\SWD\src\test\java\ru\stqa\litecard" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CatalogTests.testCatalog">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.litecart.Main" />
-      <module name="SWD.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.litecart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.CatalogTests">
     <configuration name="CatalogTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -166,13 +152,37 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="OpenPageTests.testOpenPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.stqa.litecart.tests.OpenPageTests.testOpenPage&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CatalogTests.testCatalog" />
         <item itemvalue="Gradle.CatalogTests" />
-        <item itemvalue="Gradle.LoginTests.testOpenPage" />
         <item itemvalue="Gradle.OpenPageTests" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.CatalogTests.testCatalog" />
+        <item itemvalue="Gradle.OpenPageTests.testOpenPage" />
+        <item itemvalue="Gradle.LoginTests.testOpenPage" />
       </list>
     </recent_temporary>
   </component>
@@ -192,22 +202,19 @@
       <option name="project" value="LOCAL" />
       <updated>1705638627780</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавил в тест CatalogTests создание нового каталога">
+      <created>1705841244352</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705841244352</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create project" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/CatalogTests.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Добавил в тест CatalogTests создание нового каталога" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил в тест CatalogTests создание нового каталога" />
   </component>
 </project>
