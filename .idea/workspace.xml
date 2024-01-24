@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="Добавил в тест CatalogTests создание нового каталога">
+    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="Добавил запуска Гулг, Едж, ФФ и ФФ Найтли">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SidebarTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/CatalogTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/CatalogTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/OpenPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/OpenPageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +17,26 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SWD" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,17 +55,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/darkhorse/IdeaProjects/java_pft",
-    "onboarding.tips.debug.path": "C:/Users/darkhorse/IdeaProjects/SWD/src/main/java/ru/stqa/litecard/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/darkhorse/IdeaProjects/java_pft&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/darkhorse/IdeaProjects/SWD/src/main/java/ru/stqa/litecard/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\darkhorse\IdeaProjects\SWD\src\test\resources" />
@@ -55,8 +73,8 @@
       <recent name="C:\Users\darkhorse\IdeaProjects\SWD\src\test\java\ru\stqa\litecard" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CatalogTests">
-    <configuration name="CatalogTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FirefoxNightlyTest.myFirstTest">
+    <configuration name="ChromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -69,7 +87,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.stqa.litecart.tests.CatalogTests&quot;" />
+            <option value="&quot;ru.stqa.litecart.browsers.ChromeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -80,7 +98,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CatalogTests.testCatalog" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EdgeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -93,7 +111,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.stqa.litecart.tests.CatalogTests.testCatalog&quot;" />
+            <option value="&quot;ru.stqa.litecart.browsers.EdgeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -104,7 +122,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests.testOpenPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FirefoxNightlyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -117,7 +135,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.stqa.litecart.tests.LoginTests.testOpenPage&quot;" />
+            <option value="&quot;ru.stqa.litecart.browsers.FirefoxNightlyTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -128,7 +146,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="OpenPageTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FirefoxNightlyTest.myFirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -141,7 +159,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.stqa.litecart.tests.OpenPageTests&quot;" />
+            <option value="&quot;ru.stqa.litecart.browsers.FirefoxNightlyTest.myFirstTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -178,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CatalogTests" />
-        <item itemvalue="Gradle.OpenPageTests" />
-        <item itemvalue="Gradle.CatalogTests.testCatalog" />
+        <item itemvalue="Gradle.FirefoxNightlyTest.myFirstTest" />
+        <item itemvalue="Gradle.FirefoxNightlyTest" />
+        <item itemvalue="Gradle.EdgeTest" />
+        <item itemvalue="Gradle.ChromeTest" />
         <item itemvalue="Gradle.OpenPageTests.testOpenPage" />
-        <item itemvalue="Gradle.LoginTests.testOpenPage" />
       </list>
     </recent_temporary>
   </component>
@@ -209,12 +227,20 @@
       <option name="project" value="LOCAL" />
       <updated>1705841244352</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавил запуска Гулг, Едж, ФФ и ФФ Найтли">
+      <created>1705902558288</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705902558288</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create project" />
     <MESSAGE value="Добавил в тест CatalogTests создание нового каталога" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил в тест CatalogTests создание нового каталога" />
+    <MESSAGE value="Добавил запуска Гулг, Едж, ФФ и ФФ Найтли" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил запуска Гулг, Едж, ФФ и ФФ Найтли" />
   </component>
 </project>
