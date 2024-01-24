@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="Добавил запуска Гулг, Едж, ФФ и ФФ Найтли">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SidebarTests.java" afterDir="false" />
+    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="добавил SidebarTests - проходит по всем разделам бокового меню">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SidebarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SidebarTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <recent name="C:\Users\darkhorse\IdeaProjects\SWD\src\test\java\ru\stqa\litecard" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FirefoxNightlyTest.myFirstTest">
+  <component name="RunManager" selected="Gradle.SidebarTests.myFirstTest">
     <configuration name="ChromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -170,7 +170,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="OpenPageTests.testOpenPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SidebarTests.myFirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -183,7 +183,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.stqa.litecart.tests.OpenPageTests.testOpenPage&quot;" />
+            <option value="&quot;ru.stqa.litecart.tests.SidebarTests.myFirstTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -196,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SidebarTests.myFirstTest" />
         <item itemvalue="Gradle.FirefoxNightlyTest.myFirstTest" />
         <item itemvalue="Gradle.FirefoxNightlyTest" />
         <item itemvalue="Gradle.EdgeTest" />
         <item itemvalue="Gradle.ChromeTest" />
-        <item itemvalue="Gradle.OpenPageTests.testOpenPage" />
       </list>
     </recent_temporary>
   </component>
@@ -234,13 +234,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705902558288</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="добавил SidebarTests - проходит по всем разделам бокового меню">
+      <created>1706073102347</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706073102347</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create project" />
     <MESSAGE value="Добавил в тест CatalogTests создание нового каталога" />
     <MESSAGE value="Добавил запуска Гулг, Едж, ФФ и ФФ Найтли" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил запуска Гулг, Едж, ФФ и ФФ Найтли" />
+    <MESSAGE value="добавил SidebarTests - проходит по всем разделам бокового меню" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил SidebarTests - проходит по всем разделам бокового меню" />
   </component>
 </project>
