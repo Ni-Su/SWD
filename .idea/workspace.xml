@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="добавил SidebarTests - проходит по всем разделам бокового меню">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/browsers/FirefoxNightlyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/browsers/FirefoxNightlyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SidebarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SidebarTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,31 +74,7 @@
       <recent name="C:\Users\darkhorse\IdeaProjects\SWD\src\test\java\ru\stqa\litecard" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SidebarTests.myFirstTest">
-    <configuration name="ChromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.stqa.litecart.browsers.ChromeTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.SidebarTests">
     <configuration name="EdgeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -170,6 +147,30 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="SidebarTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.stqa.litecart.tests.SidebarTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="SidebarTests.myFirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -196,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SidebarTests.myFirstTest" />
-        <item itemvalue="Gradle.FirefoxNightlyTest.myFirstTest" />
+        <item itemvalue="Gradle.SidebarTests" />
         <item itemvalue="Gradle.FirefoxNightlyTest" />
+        <item itemvalue="Gradle.FirefoxNightlyTest.myFirstTest" />
+        <item itemvalue="Gradle.SidebarTests.myFirstTest" />
         <item itemvalue="Gradle.EdgeTest" />
-        <item itemvalue="Gradle.ChromeTest" />
       </list>
     </recent_temporary>
   </component>
