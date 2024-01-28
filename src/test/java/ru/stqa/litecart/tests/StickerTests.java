@@ -4,10 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -22,10 +24,25 @@ public class StickerTests {
     @Test
     public void testSticker () throws Exception {
         wd.get("http://localhost/litecart/en/");
+
+        List<String> ducks = new ArrayList<>();
         List<WebElement> div = wd.findElements(By.cssSelector("div.content a.link"));
         for (WebElement l : div) {
-            l.findElement(By.linkText("New"));
+            String duck = l.getAttribute("innerText");
+            ducks.add(duck);
         }
+        List<String> stickers = new ArrayList<>();
+        List<WebElement> st = wd.findElements(By.cssSelector("div.content a.link div.sticker"));
+        for (WebElement n : st) {
+            String sticker = n.getAttribute("innerText");
+            stickers.add(sticker);
+        }
+        Assert.assertEquals(ducks.size(), stickers.size());
+        //for(String d : ducks) {
+        //    wd.findElement(By.ByCssSelector("d));
+        //}
+        //(By.cssSelector("div.images-wrapper a div"));
+        //findElement(By.linkText("New"));
     //есть три бокса
     //wd.findElement(By.id("box-most-popular");
     //в боксах есть товары
