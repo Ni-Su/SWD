@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="добавил получение списков разделов и списков подразделов в SidebarTests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerShortTests.java" afterDir="false" />
+    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="добавил проверку наличия стикеров у товаров на главной странице StickerShortTests, задание №7">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
       <recent name="C:\Users\darkhorse\IdeaProjects\SWD\src\test\java\ru\stqa\litecard" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StickerShortTests">
+  <component name="RunManager" selected="Gradle.SortCountrysTests.testSortCountrys">
     <configuration name="SidebarTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -124,6 +123,30 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="SortCountrysTests.testSortCountrys" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.stqa.litecart.tests.SortCountrysTests.testSortCountrys&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="StickerShortTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -138,30 +161,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;ru.stqa.litecart.tests.StickerShortTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="StickerTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.stqa.litecart.tests.StickerTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -198,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SortCountrysTests.testSortCountrys" />
         <item itemvalue="Gradle.StickerShortTests" />
         <item itemvalue="Gradle.StickerTests.testSticker" />
         <item itemvalue="Gradle.SidebarTests.myFirstTest" />
         <item itemvalue="Gradle.SidebarTests" />
-        <item itemvalue="Gradle.StickerTests" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706418838310</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="добавил проверку наличия стикеров у товаров на главной странице StickerShortTests, задание №7">
+      <created>1706433628301</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706433628301</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -267,7 +273,8 @@
     <MESSAGE value="добавил SidebarTests - проходит по всем разделам бокового меню" />
     <MESSAGE value="добавил проверку наличия элемента h1 на страеице" />
     <MESSAGE value="добавил получение списков разделов и списков подразделов в SidebarTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил получение списков разделов и списков подразделов в SidebarTests" />
+    <MESSAGE value="добавил проверку наличия стикеров у товаров на главной странице StickerShortTests, задание №7" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил проверку наличия стикеров у товаров на главной странице StickerShortTests, задание №7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -306,6 +313,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java</url>
           <line>36</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
