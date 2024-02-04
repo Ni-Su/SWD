@@ -19,6 +19,7 @@ import static java.util.Collections.*;
 public class SortCountriesTests {
     //Collections.sort(list);
     private WebDriver wd;
+    public static int numberOfRow = 0;
     @BeforeMethod
     public void setUp() throws Exception {
         wd = new FirefoxDriver();
@@ -33,17 +34,48 @@ public class SortCountriesTests {
 
         List<String> countries = new ArrayList<String>();
         List<WebElement> name = wd.findElements(By.cssSelector("tr.row>td:nth-child(5)"));
-        for(WebElement n : name) {
+        for (WebElement n : name) {
             String na = n.getAttribute("innerText");
             countries.add(na);
         }
-
         List<String> cs = countries;
         Collections.sort(cs);
         Assert.assertEquals(countries, cs);
+
+        List<String> codeCountries = new ArrayList<>();
+        List<Integer> z = new ArrayList<Integer>();
+        List<WebElement> zones = wd.findElements(By.cssSelector("tr.row>td:nth-child(6)"));
+        for (WebElement n : zones) {
+            int x = Integer.parseInt(n.getAttribute("innerText"));
+            z.add(x);
+        }
+
+        List<WebElement> code = wd.findElements(By.cssSelector("tr.row>td:nth-child(4)"));
+        for (int y : z) {
+            if (y > 0) {
+                String c;
+                c = code.get(numberOfRow).getAttribute("innerText");
+                codeCountries.add(c);
+            }
+            numberOfRow++;
+        }
+        System.out.println(codeCountries);
+        for (String c : codeCountries) {
+            wd.get("http://localhost/litecart/admin/?app=countries&doc=edit_country&country_code=" + c);
+            List<String> nameZones = new ArrayList<String>();
+            List<WebElement> nz = wd.findElements(By.cssSelector("table#table-zones td:nth-child(3)"));
+            for (WebElement tz : nz) {
+                String timeZoneName = tz.getAttribute("innerText");
+                nameZones.add(timeZoneName);
+            }
+            System.out.println(nameZones);
+            List<String> nzs = nameZones;
+            Collections.sort(nzs);
+            Assert.assertEquals(nameZones, nzs);
+        }
     }
     @AfterMethod
-    public void tearDown () {
+    public void tearDown() {
         wd.quit();
     }
 }
