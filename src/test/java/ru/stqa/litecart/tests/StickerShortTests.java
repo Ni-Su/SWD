@@ -9,6 +9,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -23,13 +24,26 @@ public class StickerShortTests {
     @Test
     public void testSticker () throws Exception {
         wd.get("http://localhost/litecart/en/");
-        List<WebElement> ducks = wd.findElements(By.cssSelector("div.content a.link"));
-        List<WebElement> stickers = wd.findElements(By.cssSelector("div.content a.link div.sticker"));
-        Assert.assertEquals(ducks.size(), stickers.size());
+        List<WebElement> ducks = wd.findElements(By.cssSelector("div.content a.link[title*=Duck]"));
+
+        for(WebElement duck : ducks) {
+            List<WebElement> stickers = duck.findElements(By.cssSelector("div.sticker"));
+            Assert.assertEquals(1, stickers.size());
+            String sticker = duck.findElement(By.cssSelector("div.sticker")).getAttribute("innerText");
+            Assert.assertTrue(newOrSale(sticker));
+        }
     }
     @AfterMethod
     public void tearDown () {
         wd.quit();
+    }
+
+    public boolean newOrSale(String text) {
+        if(text.equals("NEW") || text.equals("SALE")){
+            return true;
+        } else {
+            return false;
+        }
     }
 }
 

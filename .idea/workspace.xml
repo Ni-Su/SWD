@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="изменил локатор поиска названия станы, создал сортированую копию списка и сравнил списки, задание№8 часть 1">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="добавил переход на страницу Edit Country, получение списка часовых поясов, сортировку копии списка и сравнение списков, задание№8 часть 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerShortTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerShortTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,24 +60,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.SortCountriesTests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SortCountriesTests.testSortCountries.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/darkhorse/IdeaProjects/java_pft&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/darkhorse/IdeaProjects/SWD/src/main/java/ru/stqa/litecard/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.SortCountriesTests.executor": "Run",
+    "Gradle.SortCountriesTests.testSortCountries.executor": "Run",
+    "Gradle.StickerShortTests.testSticker.executor": "Run",
+    "Gradle.Upgrade Gradle wrapper.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/darkhorse/IdeaProjects/java_pft",
+    "onboarding.tips.debug.path": "C:/Users/darkhorse/IdeaProjects/SWD/src/main/java/ru/stqa/litecard/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\darkhorse\IdeaProjects\SWD\src\test\resources" />
@@ -86,7 +86,7 @@
       <recent name="C:\Users\darkhorse\IdeaProjects\SWD\src\test\java\ru\stqa\litecard" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SortCountriesTests.testSortCountries">
+  <component name="RunManager" selected="Gradle.StickerShortTests.testSticker">
     <configuration name="SortCountriesTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -183,7 +183,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StickerTests.testSticker" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StickerShortTests.testSticker" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -196,7 +196,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.stqa.litecart.tests.StickerTests.testSticker&quot;" />
+            <option value="&quot;ru.stqa.litecart.tests.StickerShortTests.testSticker&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -209,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StickerShortTests.testSticker" />
         <item itemvalue="Gradle.SortCountriesTests.testSortCountries" />
         <item itemvalue="Gradle.SortCountriesTests" />
         <item itemvalue="Gradle.SortCountrysTests.testSortCountrys" />
         <item itemvalue="Gradle.StickerShortTests" />
-        <item itemvalue="Gradle.StickerTests.testSticker" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707032910318</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="добавил переход на страницу Edit Country, получение списка часовых поясов, сортировку копии списка и сравнение списков, задание№8 часть 2">
+      <option name="closed" value="true" />
+      <created>1707049813116</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707049813116</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -302,7 +310,8 @@
     <MESSAGE value="добавил получение списков разделов и списков подразделов в SidebarTests" />
     <MESSAGE value="добавил проверку наличия стикеров у товаров на главной странице StickerShortTests, задание №7" />
     <MESSAGE value="изменил локатор поиска названия станы, создал сортированую копию списка и сравнил списки, задание№8 часть 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="изменил локатор поиска названия станы, создал сортированую копию списка и сравнил списки, задание№8 часть 1" />
+    <MESSAGE value="добавил переход на страницу Edit Country, получение списка часовых поясов, сортировку копии списка и сравнение списков, задание№8 часть 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил переход на страницу Edit Country, получение списка часовых поясов, сортировку копии списка и сравнение списков, задание№8 часть 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
