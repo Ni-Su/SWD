@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="добавил переход на страницу Edit Country, получение списка часовых поясов, сортировку копии списка и сравнение списков, задание№8 часть 2">
+    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="добавил проверку количества стикеров у товара и проверку текста стикера, задание№7">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortGeoZones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerShortTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerShortTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +64,8 @@
   "keyToString": {
     "Gradle.SortCountriesTests.executor": "Run",
     "Gradle.SortCountriesTests.testSortCountries.executor": "Run",
+    "Gradle.SortGeoZones.executor": "Run",
+    "Gradle.SortGeoZones.testSortGeoZones.executor": "Run",
     "Gradle.StickerShortTests.testSticker.executor": "Run",
     "Gradle.Upgrade Gradle wrapper.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -86,7 +88,7 @@
       <recent name="C:\Users\darkhorse\IdeaProjects\SWD\src\test\java\ru\stqa\litecard" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StickerShortTests.testSticker">
+  <component name="RunManager" selected="Gradle.SortGeoZones">
     <configuration name="SortCountriesTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -135,7 +137,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SortCountrysTests.testSortCountrys" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SortGeoZones" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -148,7 +150,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.stqa.litecart.tests.SortCountrysTests.testSortCountrys&quot;" />
+            <option value="&quot;ru.stqa.litecart.tests.SortGeoZones&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -159,7 +161,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StickerShortTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SortGeoZones.testSortGeoZones" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -172,7 +174,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.stqa.litecart.tests.StickerShortTests&quot;" />
+            <option value="&quot;ru.stqa.litecart.tests.SortGeoZones.testSortGeoZones&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -209,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SortGeoZones" />
+        <item itemvalue="Gradle.SortGeoZones.testSortGeoZones" />
         <item itemvalue="Gradle.StickerShortTests.testSticker" />
         <item itemvalue="Gradle.SortCountriesTests.testSortCountries" />
         <item itemvalue="Gradle.SortCountriesTests" />
-        <item itemvalue="Gradle.SortCountrysTests.testSortCountrys" />
-        <item itemvalue="Gradle.StickerShortTests" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707049813116</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="добавил проверку количества стикеров у товара и проверку текста стикера, задание№7">
+      <option name="closed" value="true" />
+      <created>1707238119266</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707238119266</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -311,7 +321,8 @@
     <MESSAGE value="добавил проверку наличия стикеров у товаров на главной странице StickerShortTests, задание №7" />
     <MESSAGE value="изменил локатор поиска названия станы, создал сортированую копию списка и сравнил списки, задание№8 часть 1" />
     <MESSAGE value="добавил переход на страницу Edit Country, получение списка часовых поясов, сортировку копии списка и сравнение списков, задание№8 часть 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил переход на страницу Edit Country, получение списка часовых поясов, сортировку копии списка и сравнение списков, задание№8 часть 2" />
+    <MESSAGE value="добавил проверку количества стикеров у товара и проверку текста стикера, задание№7" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил проверку количества стикеров у товара и проверку текста стикера, задание№7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
