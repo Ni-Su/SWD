@@ -24,7 +24,7 @@ public class StickerShortTests {
     @Test
     public void testSticker () throws Exception {
         wd.get("http://localhost/litecart/en/");
-        List<WebElement> ducks = wd.findElements(By.cssSelector("div.content a.link[title*=Duck]"));
+        List<WebElement> ducks = wd.findElements(By.cssSelector("div.content li.product"));
 
         for(WebElement duck : ducks) {
             List<WebElement> stickers = duck.findElements(By.cssSelector("div.sticker"));
