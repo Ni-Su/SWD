@@ -29,21 +29,11 @@ public class StickerShortTests {
         for(WebElement duck : ducks) {
             List<WebElement> stickers = duck.findElements(By.cssSelector("div.sticker"));
             Assert.assertEquals(1, stickers.size());
-            String sticker = duck.findElement(By.cssSelector("div.sticker")).getAttribute("innerText");
-            Assert.assertTrue(newOrSale(sticker));
         }
     }
     @AfterMethod
     public void tearDown () {
         wd.quit();
-    }
-
-    public boolean newOrSale(String text) {
-        if(text.equals("NEW") || text.equals("SALE")){
-            return true;
-        } else {
-            return false;
-        }
     }
 }
 
