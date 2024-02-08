@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="убрал проверку текста стикера, задание №7">
+    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="исправил локатор для товара, задание №7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerShortTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerShortTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
       <recent name="C:\Users\darkhorse\IdeaProjects\SWD\src\test\java\ru\stqa\litecard" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StickerShortTests.testSticker">
+  <component name="RunManager" selected="Gradle.SortCountriesTests.testSortCountries">
     <configuration name="SortCountriesTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -211,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SortCountriesTests.testSortCountries" />
+        <item itemvalue="Gradle.SortCountriesTests" />
         <item itemvalue="Gradle.StickerShortTests.testSticker" />
         <item itemvalue="Gradle.SortGeoZones" />
         <item itemvalue="Gradle.SortGeoZones.testSortGeoZones" />
-        <item itemvalue="Gradle.SortCountriesTests.testSortCountries" />
-        <item itemvalue="Gradle.SortCountriesTests" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +324,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707324409663</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="исправил локатор для товара, задание №7">
+      <option name="closed" value="true" />
+      <created>1707324890483</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707324890483</updated>
+    </task>
+    <task id="LOCAL-00014" summary="исправил локатор для товара, задание №7">
+      <option name="closed" value="true" />
+      <created>1707325089630</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707325089630</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -340,7 +356,8 @@
     <MESSAGE value="добавил проверку количества стикеров у товара и проверку текста стикера, задание№7" />
     <MESSAGE value="добавил проверку сортировки списка зон у стран, задание №9" />
     <MESSAGE value="убрал проверку текста стикера, задание №7" />
-    <option name="LAST_COMMIT_MESSAGE" value="убрал проверку текста стикера, задание №7" />
+    <MESSAGE value="исправил локатор для товара, задание №7" />
+    <option name="LAST_COMMIT_MESSAGE" value="исправил локатор для товара, задание №7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

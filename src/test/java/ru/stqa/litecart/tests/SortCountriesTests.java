@@ -14,7 +14,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import static java.util.Collections.*;
 
 public class SortCountriesTests {
     //Collections.sort(list);
@@ -38,7 +37,8 @@ public class SortCountriesTests {
             String na = n.getAttribute("innerText");
             countries.add(na);
         }
-        List<String> cs = countries;
+        List<String> cs = new ArrayList<>();
+        cs.addAll(countries);
         Collections.sort(cs);
         Assert.assertEquals(countries, cs);
 
@@ -59,18 +59,20 @@ public class SortCountriesTests {
             }
             numberOfRow++;
         }
-        System.out.println(codeCountries);
+
         for (String c : codeCountries) {
             wd.get("http://localhost/litecart/admin/?app=countries&doc=edit_country&country_code=" + c);
             List<String> nameZones = new ArrayList<String>();
             List<WebElement> nz = wd.findElements(By.cssSelector("table#table-zones td:nth-child(3)"));
             for (WebElement tz : nz) {
                 String timeZoneName = tz.getAttribute("innerText");
-                nameZones.add(timeZoneName);
+                if(! timeZoneName.equals("")) {nameZones.add(timeZoneName);}
             }
-            System.out.println(nameZones);
-            List<String> nzs = nameZones;
+            List<String> nzs = new ArrayList<String>();
+            nzs.addAll(nameZones);
+            System.out.println(nzs);
             Collections.sort(nzs);
+            System.out.println(nzs);
             Assert.assertEquals(nameZones, nzs);
         }
     }
