@@ -42,7 +42,8 @@ public class SortGeoZones {
                 String zonaStr = zona.getAttribute("innerText");
                 zonesStr.add(zonaStr);
             }
-            List<String> zonesSort = zonesStr;
+            List<String> zonesSort = new ArrayList<>();
+            zonesSort.addAll(zonesStr);
             Collections.sort(zonesSort);
             Assert.assertEquals(zonesStr, zonesSort);
         }

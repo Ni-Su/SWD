@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="исправил локатор для товара, задание №7">
+    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="убрал вывод в консоль списков, задание №8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortGeoZones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortGeoZones.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
       <recent name="C:\Users\darkhorse\IdeaProjects\SWD\src\test\java\ru\stqa\litecard" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SortCountriesTests.testSortCountries">
+  <component name="RunManager" selected="Gradle.SortGeoZones">
     <configuration name="SortCountriesTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -211,10 +211,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SortCountriesTests.testSortCountries" />
-        <item itemvalue="Gradle.SortCountriesTests" />
-        <item itemvalue="Gradle.StickerShortTests.testSticker" />
         <item itemvalue="Gradle.SortGeoZones" />
+        <item itemvalue="Gradle.SortCountriesTests" />
+        <item itemvalue="Gradle.SortCountriesTests.testSortCountries" />
+        <item itemvalue="Gradle.StickerShortTests.testSticker" />
         <item itemvalue="Gradle.SortGeoZones.testSortGeoZones" />
       </list>
     </recent_temporary>
@@ -340,7 +340,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707325089630</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="исправил копирование списков, убрал пустую строку из списка зон, задание №8">
+      <option name="closed" value="true" />
+      <created>1707357750448</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1707357750448</updated>
+    </task>
+    <task id="LOCAL-00016" summary="убрал вывод в консоль списков, задание №8">
+      <option name="closed" value="true" />
+      <created>1707357830556</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1707357830556</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -357,7 +373,9 @@
     <MESSAGE value="добавил проверку сортировки списка зон у стран, задание №9" />
     <MESSAGE value="убрал проверку текста стикера, задание №7" />
     <MESSAGE value="исправил локатор для товара, задание №7" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправил локатор для товара, задание №7" />
+    <MESSAGE value="исправил копирование списков, убрал пустую строку из списка зон, задание №8" />
+    <MESSAGE value="убрал вывод в консоль списков, задание №8" />
+    <option name="LAST_COMMIT_MESSAGE" value="убрал вывод в консоль списков, задание №8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
