@@ -70,9 +70,7 @@ public class SortCountriesTests {
             }
             List<String> nzs = new ArrayList<String>();
             nzs.addAll(nameZones);
-            System.out.println(nzs);
             Collections.sort(nzs);
-            System.out.println(nzs);
             Assert.assertEquals(nameZones, nzs);
         }
     }
