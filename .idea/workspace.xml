@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="убрал вывод в консоль списков, задание №8">
+    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="исправил копирование списка, задание №9">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/AddNewProductTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StylesTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortGeoZones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortGeoZones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/CatalogTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/CatalogTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +65,15 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Gradle.AddNewProductTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AddNewProductTests.testAddNewProduct.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.SortCountriesTests.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.SortCountriesTests.testSortCountries.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.SortGeoZones.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.SortGeoZones.testSortGeoZones.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.StickerShortTests.testSticker.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StylesTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StylesTests.testStyles.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -88,8 +95,8 @@
       <recent name="C:\Users\darkhorse\IdeaProjects\SWD\src\test\java\ru\stqa\litecard" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SortGeoZones">
-    <configuration name="SortCountriesTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AddNewProductTests">
+    <configuration name="AddNewProductTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -102,7 +109,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.stqa.litecart.tests.SortCountriesTests&quot;" />
+            <option value="&quot;ru.stqa.litecart.tests.AddNewProductTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -113,7 +120,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SortCountriesTests.testSortCountries" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AddNewProductTests.testAddNewProduct" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -126,7 +133,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.stqa.litecart.tests.SortCountriesTests.testSortCountries&quot;" />
+            <option value="&quot;ru.stqa.litecart.tests.AddNewProductTests.testAddNewProduct&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -161,7 +168,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SortGeoZones.testSortGeoZones" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StylesTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -174,7 +181,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.stqa.litecart.tests.SortGeoZones.testSortGeoZones&quot;" />
+            <option value="&quot;ru.stqa.litecart.tests.StylesTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -185,7 +192,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StickerShortTests.testSticker" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StylesTests.testStyles" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -198,7 +205,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.stqa.litecart.tests.StickerShortTests.testSticker&quot;" />
+            <option value="&quot;ru.stqa.litecart.tests.StylesTests.testStyles&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -211,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AddNewProductTests" />
+        <item itemvalue="Gradle.AddNewProductTests.testAddNewProduct" />
+        <item itemvalue="Gradle.StylesTests" />
+        <item itemvalue="Gradle.StylesTests.testStyles" />
         <item itemvalue="Gradle.SortGeoZones" />
-        <item itemvalue="Gradle.SortCountriesTests" />
-        <item itemvalue="Gradle.SortCountriesTests.testSortCountries" />
-        <item itemvalue="Gradle.StickerShortTests.testSticker" />
-        <item itemvalue="Gradle.SortGeoZones.testSortGeoZones" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707357830556</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="исправил копирование списка, задание №9">
+      <option name="closed" value="true" />
+      <created>1707358546269</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1707358546269</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -375,45 +390,16 @@
     <MESSAGE value="исправил локатор для товара, задание №7" />
     <MESSAGE value="исправил копирование списков, убрал пустую строку из списка зон, задание №8" />
     <MESSAGE value="убрал вывод в консоль списков, задание №8" />
-    <option name="LAST_COMMIT_MESSAGE" value="убрал вывод в консоль списков, задание №8" />
+    <MESSAGE value="исправил копирование списка, задание №9" />
+    <option name="LAST_COMMIT_MESSAGE" value="исправил копирование списка, задание №9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java</url>
           <line>35</line>
           <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
