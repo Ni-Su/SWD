@@ -19,19 +19,19 @@ import java.util.concurrent.TimeUnit;
 
 public class AddToCartTest {
     private WebDriver wd;
+    private WebDriverWait wait;
     private int items = 0;
 
 
     @BeforeMethod
     public void setUp() {
         wd = new FirefoxDriver();
-        wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        wait = new WebDriverWait(wd, Duration.ofSeconds(5));
+        //wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     }
 
     @Test
     public void testAddToCart(){
-        //Duration tenSeconds = Duration.ofSeconds(10);
-        //WebDriverWait wait = new WebDriverWait(wd, tenSeconds);
         wd.get("http://localhost/litecart/en/");
         wd.findElement(By.cssSelector("div#box-most-popular li.product:first-child")).click();
         while (items < 3 ) {
@@ -40,32 +40,33 @@ public class AddToCartTest {
                 Select size = new Select(wd.findElement(By.cssSelector("select")));
                 size.selectByValue("Small");
                 wd.findElement(By.cssSelector("button[name=add_cart_product]")).click();
+                //try {Thread.sleep(3000);} catch (InterruptedException e) {throw new RuntimeException(e);}
+                WebElement item = wd.findElement(By.cssSelector("span.quantity"));
+                String nextItem = String.valueOf(items+1);
+                System.out.println("nextItem " + nextItem);
+                wait.until(ExpectedConditions.textToBePresentInElement(item, nextItem));
                 wd.findElement(By.linkText("Home")).click();
                 wd.findElement(By.cssSelector("div#box-most-popular li.product:first-child")).click();
                 //добавить выход из цикла if, заменить return
             }else {
                 wd.findElement(By.cssSelector("button[name=add_cart_product]")).click();
-                //wait.until(ExpectedConditions.elementToBeClickable(wd.findElement(By.cssSelector("span.quantity"))));
-                try {
-                    Thread.sleep(3000);
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
-                }
-            items = Integer.parseInt(wd.findElement(By.cssSelector("span.quantity")).getAttribute("innerText"));
-            System.out.println(items);
-            wd.findElement(By.linkText("Home")).click();
-            wd.findElement(By.cssSelector("div#box-most-popular li.product:first-child")).click();
+                //try {Thread.sleep(3000);} catch (InterruptedException e) {throw new RuntimeException(e);}
+                WebElement item = wd.findElement(By.cssSelector("span.quantity"));
+                String nextItem = String.valueOf(items+1);
+                System.out.println("nextItem " + nextItem);
+                wait.until(ExpectedConditions.textToBePresentInElement(item, nextItem));
+                items = Integer.parseInt(wd.findElement(By.cssSelector("span.quantity")).getAttribute("innerText"));
+                System.out.println(items);
+                wd.findElement(By.linkText("Home")).click();
+                wd.findElement(By.cssSelector("div#box-most-popular li.product:first-child")).click();
             }
-
         }
         wd.findElement(By.cssSelector("div#cart a.link")).click();
         while (isElementPresent(By.cssSelector("table.dataTable"))) {
             wd.findElement(By.cssSelector("button[value=Remove]")).click();
-            try {
-                Thread.sleep(3000);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
+            wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.cssSelector("table.dataTable")));
+            //WebElement table = (new WebDriverWait(wd, Duration.ofSeconds(7)).until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("table.dataTable"))));
+            //try {Thread.sleep(3000);} catch (InterruptedException e) {throw new RuntimeException(e);}
         }
         Assert.assertTrue(isElementPresent(By.cssSelector("em")));
     }
