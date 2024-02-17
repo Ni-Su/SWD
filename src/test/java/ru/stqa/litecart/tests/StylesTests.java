@@ -18,9 +18,9 @@ public class StylesTests {
 
     @BeforeMethod
     public void setUp() {
-        //wd = new FirefoxDriver();
+        wd = new FirefoxDriver();
         //wd = new ChromeDriver();
-        wd = new EdgeDriver();
+        //wd = new EdgeDriver();
         wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     }
 
@@ -44,7 +44,9 @@ public class StylesTests {
         Assert.assertEquals("line-through", homeThrough[0]);
 
         String colorhdr = hdp.getCssValue("color");
+        //System.out.println(colorhdr);
         String[] homeRed = colorhdr.split("[^0-9]");
+        //for(String n : homeRed) {System.out.println(n);}
         Assert.assertTrue(homeRed[6].equals("0"));
         Assert.assertEquals("0", homeRed[8]);
 
@@ -83,7 +85,7 @@ public class StylesTests {
 
         Integer weightpdp = Integer.parseInt(pdp.getCssValue("font-weight"));
         Assert.assertTrue(weightpdp >= 700);
-        System.out.println(weightpdp);
+        //System.out.println(weightpdp);
 
         String sizePr = prp.getCssValue("font-size");
         String[] prpSize = sizePr.split("[^0-9]");
