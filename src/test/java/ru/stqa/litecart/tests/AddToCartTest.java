@@ -65,10 +65,10 @@ public class AddToCartTest {
         }
         wd.findElement(By.cssSelector("div#cart a.link")).click();
         while (isElementPresent(By.cssSelector("table.dataTable"))) {
-            wd.findElement(By.cssSelector("button[value=Remove]")).click();
             WebElement table = wd.findElement(By.cssSelector("table.dataTable"));
-            wd.navigate().refresh();
+            wd.findElement(By.cssSelector("button[value=Remove]")).click();
             wait.until(stalenessOf(table));
+            //wd.navigate().refresh();
             //wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.cssSelector("table.dataTable")));
             //WebElement table = (new WebDriverWait(wd, Duration.ofSeconds(7)).until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("table.dataTable"))));
             //try {Thread.sleep(3000);} catch (InterruptedException e) {throw new RuntimeException(e);}
