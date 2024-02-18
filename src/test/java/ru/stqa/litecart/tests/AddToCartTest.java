@@ -17,6 +17,8 @@ import org.openqa.selenium.NoSuchElementException;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
+import static org.openqa.selenium.support.ui.ExpectedConditions.stalenessOf;
+
 public class AddToCartTest {
     private WebDriver wd;
     private WebDriverWait wait;
@@ -64,7 +66,10 @@ public class AddToCartTest {
         wd.findElement(By.cssSelector("div#cart a.link")).click();
         while (isElementPresent(By.cssSelector("table.dataTable"))) {
             wd.findElement(By.cssSelector("button[value=Remove]")).click();
-            wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.cssSelector("table.dataTable")));
+            WebElement table = wd.findElement(By.cssSelector("table.dataTable"));
+            wd.navigate().refresh();
+            wait.until(stalenessOf(table));
+            //wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.cssSelector("table.dataTable")));
             //WebElement table = (new WebDriverWait(wd, Duration.ofSeconds(7)).until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("table.dataTable"))));
             //try {Thread.sleep(3000);} catch (InterruptedException e) {throw new RuntimeException(e);}
         }
