@@ -60,36 +60,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.AddNewProductTests.executor": "Run",
-    "Gradle.AddNewProductTests.testAddNewProduct.executor": "Run",
-    "Gradle.AddToCartTest.executor": "Run",
-    "Gradle.AddToCartTest.testAddToCart.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.NewUserRegistrationTests.testNewUserReg.executor": "Run",
-    "Gradle.NewWindowTests.testNewWindow.executor": "Run",
-    "Gradle.SortCountriesTests.executor": "Run",
-    "Gradle.SortCountriesTests.testSortCountries.executor": "Run",
-    "Gradle.SortGeoZones.executor": "Run",
-    "Gradle.SortGeoZones.testSortGeoZones.executor": "Run",
-    "Gradle.StickerShortTests.testSticker.executor": "Run",
-    "Gradle.StylesTests.executor": "Run",
-    "Gradle.StylesTests.testStyles.executor": "Run",
-    "Gradle.Upgrade Gradle wrapper.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/darkhorse/IdeaProjects/java_pft",
-    "onboarding.tips.debug.path": "C:/Users/darkhorse/IdeaProjects/SWD/src/main/java/ru/stqa/litecard/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AddNewProductTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AddNewProductTests.testAddNewProduct.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AddToCartTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AddToCartTest.testAddToCart.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NewUserRegistrationTests.testNewUserReg.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NewWindowTests.testNewWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SortCountriesTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SortCountriesTests.testSortCountries.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SortGeoZones.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SortGeoZones.testSortGeoZones.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StickerShortTests.testSticker.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StylesTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StylesTests.testStyles.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/darkhorse/IdeaProjects/java_pft&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/darkhorse/IdeaProjects/SWD/src/main/java/ru/stqa/litecard/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\darkhorse\IdeaProjects\SWD\src\test\resources" />
@@ -119,7 +119,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="AddToCartTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -143,7 +143,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="AddToCartTest.testAddToCart" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -167,7 +167,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="NewUserRegistrationTests.testNewUserReg" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -191,7 +191,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="NewWindowTests.testNewWindow" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -215,7 +215,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <recent_temporary>

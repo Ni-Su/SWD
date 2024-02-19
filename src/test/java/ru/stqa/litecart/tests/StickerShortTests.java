@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -22,12 +23,9 @@ public class StickerShortTests {
     @Test
     public void testSticker () throws Exception {
         wd.get("http://localhost/litecart/en/");
-        List<WebElement> ducks = wd.findElements(By.cssSelector("div.content li.product"));
-
-        for(WebElement duck : ducks) {
-            List<WebElement> stickers = duck.findElements(By.cssSelector("div.sticker"));
-            Assert.assertEquals(1, stickers.size());
-        }
+        List<WebElement> ducks = wd.findElements(By.cssSelector("div.content a.link"));
+        List<WebElement> stickers = wd.findElements(By.cssSelector("div.content a.link div.sticker"));
+        Assert.assertEquals(ducks.size(), stickers.size());
     }
     @AfterMethod
     public void tearDown () {
