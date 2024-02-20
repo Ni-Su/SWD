@@ -29,12 +29,10 @@ public class LogsTests {
         wd.findElement(By.name("password")).sendKeys("admin");
         wd.findElement(By.name("login")).click();
         wd.get("http://localhost/litecart/admin/?app=catalog&doc=catalog&category_id=1");
-        List<LogEntry> m = wd.manage().logs().get("browser").getAll();
+        //List<LogEntry> m = wd.manage().logs().get("browser").getAll();
         //System.out.println(m);
-
         wd.findElement(By.linkText("Rubber Ducks")).click();
-        wd.manage().logs().get("browser").forEach(l -> System.out.println(l));
-
+        //wd.manage().logs().get("browser").forEach(l -> System.out.println(l));
         wd.findElement(By.linkText("Subcategory")).click();
         List<WebElement> products = wd.findElements(By.cssSelector("tbody td>a[href*=product]"));
         while (i <= products.size() -1) {
