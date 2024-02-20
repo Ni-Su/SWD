@@ -1,0 +1,96 @@
+Index: src/test/java/ru/stqa/litecart/tests/StickerShortTests.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ru.stqa.litecart.tests;\r\n\r\nimport org.openqa.selenium.By;\r\nimport org.openqa.selenium.WebDriver;\r\nimport org.openqa.selenium.WebElement;\r\nimport org.openqa.selenium.firefox.FirefoxDriver;\r\nimport org.testng.Assert;\r\nimport org.testng.annotations.AfterMethod;\r\nimport org.testng.annotations.BeforeMethod;\r\nimport org.testng.annotations.Test;\r\nimport java.util.List;\r\nimport java.util.concurrent.TimeUnit;\r\n\r\npublic class StickerShortTests {\r\n    private WebDriver wd;\r\n    @BeforeMethod\r\n    public void setUp() throws Exception {\r\n        wd = new FirefoxDriver();\r\n        wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);\r\n    }\r\n\r\n    @Test\r\n    public void testSticker () throws Exception {\r\n        wd.get(\"http://localhost/litecart/en/\");\r\n        List<WebElement> ducks = wd.findElements(By.cssSelector(\"div.content li.product\"));\r\n\r\n        for(WebElement duck : ducks) {\r\n            List<WebElement> stickers = duck.findElements(By.cssSelector(\"div.sticker\"));\r\n            Assert.assertEquals(1, stickers.size());\r\n        }\r\n    }\r\n    @AfterMethod\r\n    public void tearDown () {\r\n        wd.quit();\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/ru/stqa/litecart/tests/StickerShortTests.java b/src/test/java/ru/stqa/litecart/tests/StickerShortTests.java
+--- a/src/test/java/ru/stqa/litecart/tests/StickerShortTests.java	
++++ b/src/test/java/ru/stqa/litecart/tests/StickerShortTests.java	
+@@ -8,6 +8,7 @@
+ import org.testng.annotations.AfterMethod;
+ import org.testng.annotations.BeforeMethod;
+ import org.testng.annotations.Test;
++
+ import java.util.List;
+ import java.util.concurrent.TimeUnit;
+ 
+@@ -22,12 +23,9 @@
+     @Test
+     public void testSticker () throws Exception {
+         wd.get("http://localhost/litecart/en/");
+-        List<WebElement> ducks = wd.findElements(By.cssSelector("div.content li.product"));
+-
+-        for(WebElement duck : ducks) {
+-            List<WebElement> stickers = duck.findElements(By.cssSelector("div.sticker"));
+-            Assert.assertEquals(1, stickers.size());
+-        }
++        List<WebElement> ducks = wd.findElements(By.cssSelector("div.content a.link"));
++        List<WebElement> stickers = wd.findElements(By.cssSelector("div.content a.link div.sticker"));
++        Assert.assertEquals(ducks.size(), stickers.size());
+     }
+     @AfterMethod
+     public void tearDown () {
+Index: src/test/java/ru/stqa/litecart/tests/OpenPageTests.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ru.stqa.litecart.tests;\r\n\r\nimport org.openqa.selenium.HasCapabilities;\r\nimport org.openqa.selenium.WebDriver;\r\nimport org.openqa.selenium.chrome.ChromeDriver;\r\nimport org.openqa.selenium.firefox.FirefoxDriver;\r\nimport org.openqa.selenium.firefox.FirefoxOptions;\r\nimport org.testng.annotations.AfterMethod;\r\nimport org.testng.annotations.BeforeMethod;\r\nimport org.testng.annotations.Test;\r\n\r\nimport java.util.concurrent.TimeUnit;\r\n\r\npublic class OpenPageTests {\r\n    private WebDriver wd;\r\n\r\n    @BeforeMethod\r\n    public void setUp() throws Exception {\r\n        wd = new FirefoxDriver();\r\n        wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);\r\n    }\r\n\r\n    @Test\r\n    public void testOpenPage() throws Exception {\r\n        wd.get(\"http://localhost/litecart/admin/login.php\");\r\n    }\r\n\r\n    @AfterMethod\r\n    public void tearDown () {\r\n        wd.quit();\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/ru/stqa/litecart/tests/OpenPageTests.java b/src/test/java/ru/stqa/litecart/tests/OpenPageTests.java
+--- a/src/test/java/ru/stqa/litecart/tests/OpenPageTests.java	
++++ b/src/test/java/ru/stqa/litecart/tests/OpenPageTests.java	
+@@ -1,6 +1,8 @@
+ package ru.stqa.litecart.tests;
+ 
++import org.openqa.selenium.By;
+ import org.openqa.selenium.HasCapabilities;
++import org.openqa.selenium.InvalidSelectorException;
+ import org.openqa.selenium.WebDriver;
+ import org.openqa.selenium.chrome.ChromeDriver;
+ import org.openqa.selenium.firefox.FirefoxDriver;
+Index: src/test/java/ru/stqa/litecart/tests/CatalogTests.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ru.stqa.litecart.tests;\r\n\r\nimport org.openqa.selenium.By;\r\nimport org.openqa.selenium.WebDriver;\r\nimport org.openqa.selenium.chrome.ChromeDriver;\r\nimport org.openqa.selenium.firefox.FirefoxDriver;\r\nimport org.testng.annotations.AfterMethod;\r\nimport org.testng.annotations.BeforeMethod;\r\nimport org.testng.annotations.Test;\r\n\r\nimport java.util.concurrent.TimeUnit;\r\n\r\npublic class CatalogTests extends TestBase {\r\n    private WebDriver wd;\r\n\r\n    @BeforeMethod\r\n    public void setUp() throws Exception {\r\n        wd = new FirefoxDriver();\r\n        wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);\r\n    }\r\n\r\n\r\n    @Test\r\n    public void testCatalog() throws Exception {\r\n        wd.get(\"http://localhost/litecart/admin/login.php\");\r\n        wd.findElement(By.name(\"username\")).sendKeys(\"admin\");\r\n        wd.findElement(By.name(\"password\")).sendKeys(\"admin\");\r\n        wd.findElement(By.name(\"login\")).click();\r\n        wd.findElement(By.linkText(\"Catalog\")).click();\r\n        wd.findElement(By.linkText(\"Add New Category\")).click();\r\n        wd.findElement(By.name(\"save\")).click();\r\n    }\r\n\r\n    @AfterMethod\r\n    public void tearDown () {\r\n        wd.quit();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/ru/stqa/litecart/tests/CatalogTests.java b/src/test/java/ru/stqa/litecart/tests/CatalogTests.java
+--- a/src/test/java/ru/stqa/litecart/tests/CatalogTests.java	
++++ b/src/test/java/ru/stqa/litecart/tests/CatalogTests.java	
+@@ -1,23 +1,9 @@
+ package ru.stqa.litecart.tests;
+ 
+ import org.openqa.selenium.By;
+-import org.openqa.selenium.WebDriver;
+-import org.openqa.selenium.chrome.ChromeDriver;
+-import org.openqa.selenium.firefox.FirefoxDriver;
+-import org.testng.annotations.AfterMethod;
+-import org.testng.annotations.BeforeMethod;
+ import org.testng.annotations.Test;
+ 
+-import java.util.concurrent.TimeUnit;
+-
+ public class CatalogTests extends TestBase {
+-    private WebDriver wd;
+-
+-    @BeforeMethod
+-    public void setUp() throws Exception {
+-        wd = new FirefoxDriver();
+-        wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+-    }
+ 
+ 
+     @Test
+@@ -31,8 +17,4 @@
+         wd.findElement(By.name("save")).click();
+     }
+ 
+-    @AfterMethod
+-    public void tearDown () {
+-        wd.quit();
+-    }
+ }

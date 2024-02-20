@@ -30,7 +30,7 @@ public class LogsTests {
         wd.findElement(By.name("login")).click();
         wd.get("http://localhost/litecart/admin/?app=catalog&doc=catalog&category_id=1");
         List<LogEntry> m = wd.manage().logs().get("browser").getAll();
-        System.out.println(m);
+        //System.out.println(m);
 
         wd.findElement(By.linkText("Rubber Ducks")).click();
         wd.manage().logs().get("browser").forEach(l -> System.out.println(l));
@@ -38,10 +38,10 @@ public class LogsTests {
         wd.findElement(By.linkText("Subcategory")).click();
         List<WebElement> products = wd.findElements(By.cssSelector("tbody td>a[href*=product]"));
         while (i <= products.size() -1) {
-            System.out.println(i);
+            //System.out.println(i);
             List<WebElement> pr = wd.findElements(By.cssSelector("tbody td>a[href*=product]"));
             pr.get(i).click();
-            System.out.println(wd.manage().logs().getAvailableLogTypes());
+            //System.out.println(wd.manage().logs().getAvailableLogTypes());
             for(LogEntry l : wd.manage().logs().get("browser").getAll()) {
                 System.out.println(l);
                 System.out.println("browser");

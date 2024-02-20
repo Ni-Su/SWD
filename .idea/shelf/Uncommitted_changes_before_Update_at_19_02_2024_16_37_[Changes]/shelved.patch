@@ -1,0 +1,459 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b0266a04-2d44-4364-bbfa-7f6de4084775\" name=\"Changes\" comment=\"исправил копирование списка, задание №9\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/AddNewProductTests.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StylesTests.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/CatalogTests.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/CatalogTests.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ExternalProjectsData\">\r\n    <projectState path=\"$PROJECT_DIR$\">\r\n      <ProjectState />\r\n    </projectState>\r\n  </component>\r\n  <component name=\"ExternalProjectsManager\">\r\n    <system id=\"GRADLE\">\r\n      <state>\r\n        <task path=\"$PROJECT_DIR$\">\r\n          <activation />\r\n        </task>\r\n        <projects_view>\r\n          <tree_state>\r\n            <expand>\r\n              <path>\r\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\r\n                <item name=\"SWD\" type=\"f1a62948:ProjectNode\" />\r\n              </path>\r\n            </expand>\r\n            <select />\r\n          </tree_state>\r\n        </projects_view>\r\n      </state>\r\n    </system>\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java\" root0=\"FORCE_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 7\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2b9q31CDO1i2AS6Jnkw8HxfERXO\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Gradle.AddNewProductTests.executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.AddNewProductTests.testAddNewProduct.executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.SortCountriesTests.executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.SortCountriesTests.testSortCountries.executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.SortGeoZones.executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.SortGeoZones.testSortGeoZones.executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.StickerShortTests.testSticker.executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.StylesTests.executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.StylesTests.testStyles.executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/darkhorse/IdeaProjects/java_pft&quot;,\r\n    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/darkhorse/IdeaProjects/SWD/src/main/java/ru/stqa/litecard/Main.java&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\darkhorse\\IdeaProjects\\SWD\\src\\test\\resources\" />\r\n      <recent name=\"C:\\Users\\darkhorse\\IdeaProjects\\SWD\\src\\test\\java\\ru\\stqa\\litecard\\appmanager\" />\r\n      <recent name=\"C:\\Users\\darkhorse\\IdeaProjects\\SWD\\src\\test\\java\\ru\\stqa\\litecard\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Gradle.AddNewProductTests\">\r\n    <configuration name=\"AddNewProductTests\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\":test\" />\r\n            <option value=\"--tests\" />\r\n            <option value=\"&quot;ru.stqa.litecart.tests.AddNewProductTests&quot;\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>true</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"AddNewProductTests.testAddNewProduct\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\":test\" />\r\n            <option value=\"--tests\" />\r\n            <option value=\"&quot;ru.stqa.litecart.tests.AddNewProductTests.testAddNewProduct&quot;\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>true</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"SortGeoZones\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\":test\" />\r\n            <option value=\"--tests\" />\r\n            <option value=\"&quot;ru.stqa.litecart.tests.SortGeoZones&quot;\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>true</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"StylesTests\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\":test\" />\r\n            <option value=\"--tests\" />\r\n            <option value=\"&quot;ru.stqa.litecart.tests.StylesTests&quot;\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>true</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"StylesTests.testStyles\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\":test\" />\r\n            <option value=\"--tests\" />\r\n            <option value=\"&quot;ru.stqa.litecart.tests.StylesTests.testStyles&quot;\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>true</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Gradle.AddNewProductTests\" />\r\n        <item itemvalue=\"Gradle.AddNewProductTests.testAddNewProduct\" />\r\n        <item itemvalue=\"Gradle.StylesTests\" />\r\n        <item itemvalue=\"Gradle.StylesTests.testStyles\" />\r\n        <item itemvalue=\"Gradle.SortGeoZones\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b0266a04-2d44-4364-bbfa-7f6de4084775\" name=\"Changes\" comment=\"\" />\r\n      <created>1705637442594</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1705637442594</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Create project\">\r\n      <created>1705638627780</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705638627780</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Добавил в тест CatalogTests создание нового каталога\">\r\n      <created>1705841244352</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705841244352</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Добавил запуска Гулг, Едж, ФФ и ФФ Найтли\">\r\n      <created>1705902558288</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705902558288</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"добавил SidebarTests - проходит по всем разделам бокового меню\">\r\n      <created>1706073102347</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706073102347</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"добавил проверку наличия элемента h1 на страеице\">\r\n      <created>1706152212924</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706152212924</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"добавил получение списков разделов и списков подразделов в SidebarTests\">\r\n      <created>1706418838310</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706418838310</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"добавил проверку наличия стикеров у товаров на главной странице StickerShortTests, задание №7\">\r\n      <created>1706433628301</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706433628301</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"изменил локатор поиска названия станы, создал сортированую копию списка и сравнил списки, задание№8 часть 1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707032910315</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707032910318</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"добавил переход на страницу Edit Country, получение списка часовых поясов, сортировку копии списка и сравнение списков, задание№8 часть 2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707049813116</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707049813116</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"добавил проверку количества стикеров у товара и проверку текста стикера, задание№7\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707238119266</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707238119266</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"добавил проверку сортировки списка зон у стран, задание №9\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707271465731</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707271465731</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"убрал проверку текста стикера, задание №7\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707324409663</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707324409663</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"исправил локатор для товара, задание №7\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707324890483</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707324890483</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"исправил локатор для товара, задание №7\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707325089630</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707325089630</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"исправил копирование списков, убрал пустую строку из списка зон, задание №8\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707357750448</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707357750448</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"убрал вывод в консоль списков, задание №8\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707357830556</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707357830556</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"исправил копирование списка, задание №9\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707358546269</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707358546269</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"18\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Create project\" />\r\n    <MESSAGE value=\"Добавил в тест CatalogTests создание нового каталога\" />\r\n    <MESSAGE value=\"Добавил запуска Гулг, Едж, ФФ и ФФ Найтли\" />\r\n    <MESSAGE value=\"добавил SidebarTests - проходит по всем разделам бокового меню\" />\r\n    <MESSAGE value=\"добавил проверку наличия элемента h1 на страеице\" />\r\n    <MESSAGE value=\"добавил получение списков разделов и списков подразделов в SidebarTests\" />\r\n    <MESSAGE value=\"добавил проверку наличия стикеров у товаров на главной странице StickerShortTests, задание №7\" />\r\n    <MESSAGE value=\"изменил локатор поиска названия станы, создал сортированую копию списка и сравнил списки, задание№8 часть 1\" />\r\n    <MESSAGE value=\"добавил переход на страницу Edit Country, получение списка часовых поясов, сортировку копии списка и сравнение списков, задание№8 часть 2\" />\r\n    <MESSAGE value=\"добавил проверку количества стикеров у товара и проверку текста стикера, задание№7\" />\r\n    <MESSAGE value=\"добавил проверку сортировки списка зон у стран, задание №9\" />\r\n    <MESSAGE value=\"убрал проверку текста стикера, задание №7\" />\r\n    <MESSAGE value=\"исправил локатор для товара, задание №7\" />\r\n    <MESSAGE value=\"исправил копирование списков, убрал пустую строку из списка зон, задание №8\" />\r\n    <MESSAGE value=\"убрал вывод в консоль списков, задание №8\" />\r\n    <MESSAGE value=\"исправил копирование списка, задание №9\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"исправил копирование списка, задание №9\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java</url>\r\n          <line>35</line>\r\n          <option name=\"timeStamp\" value=\"24\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,12 +4,14 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="исправил копирование списка, задание №9">
+-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/AddNewProductTests.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StylesTests.java" afterDir="false" />
++    <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="Firefox, задание №10">
++      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/CatalogTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/CatalogTests.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/OpenPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/OpenPageTests.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerShortTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerShortTests.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/TestBase.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -50,13 +52,9 @@
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="HighlightingSettingsPerFile">
+-    <setting file="file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java" root0="FORCE_HIGHLIGHTING" />
++    <option name="SET_USER_NAME_GLOBALLY" value="false" />
++    <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
+-  <component name="ProjectColorInfo">{
+-  &quot;associatedIndex&quot;: 7
+-}</component>
+   <component name="ProjectId" id="2b9q31CDO1i2AS6Jnkw8HxfERXO" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+@@ -65,27 +63,14 @@
+   </component>
+   <component name="PropertiesComponent">{
+   &quot;keyToString&quot;: {
+-    &quot;Gradle.AddNewProductTests.executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.AddNewProductTests.testAddNewProduct.executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.SortCountriesTests.executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.SortCountriesTests.testSortCountries.executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.SortGeoZones.executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.SortGeoZones.testSortGeoZones.executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.StickerShortTests.testSticker.executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.StylesTests.executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.StylesTests.testStyles.executor&quot;: &quot;Run&quot;,
+-    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
+     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+     &quot;last_opened_file_path&quot;: &quot;C:/Users/darkhorse/IdeaProjects/java_pft&quot;,
+     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/darkhorse/IdeaProjects/SWD/src/main/java/ru/stqa/litecard/Main.java&quot;,
+     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+   }
+ }</component>
+   <component name="RecentsManager">
+@@ -95,8 +80,8 @@
+       <recent name="C:\Users\darkhorse\IdeaProjects\SWD\src\test\java\ru\stqa\litecard" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Gradle.AddNewProductTests">
+-    <configuration name="AddNewProductTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
++  <component name="RunManager" selected="Gradle.StylesTests">
++    <configuration name="AddToCartTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+       <ExternalSystemSettings>
+         <option name="executionName" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+@@ -109,7 +94,7 @@
+           <list>
+             <option value=":test" />
+             <option value="--tests" />
+-            <option value="&quot;ru.stqa.litecart.tests.AddNewProductTests&quot;" />
++            <option value="&quot;ru.stqa.litecart.tests.AddToCartTest&quot;" />
+           </list>
+         </option>
+         <option name="vmOptions" />
+@@ -117,10 +102,10 @@
+       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+       <DebugAllEnabled>false</DebugAllEnabled>
+-      <RunAsTest>true</RunAsTest>
++      <ForceTestExec>true</ForceTestExec>
+       <method v="2" />
+     </configuration>
+-    <configuration name="AddNewProductTests.testAddNewProduct" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
++    <configuration name="AddToCartTest.testAddToCart" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+       <ExternalSystemSettings>
+         <option name="executionName" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+@@ -133,7 +118,7 @@
+           <list>
+             <option value=":test" />
+             <option value="--tests" />
+-            <option value="&quot;ru.stqa.litecart.tests.AddNewProductTests.testAddNewProduct&quot;" />
++            <option value="&quot;ru.stqa.litecart.tests.AddToCartTest.testAddToCart&quot;" />
+           </list>
+         </option>
+         <option name="vmOptions" />
+@@ -141,10 +126,10 @@
+       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+       <DebugAllEnabled>false</DebugAllEnabled>
+-      <RunAsTest>true</RunAsTest>
++      <ForceTestExec>true</ForceTestExec>
+       <method v="2" />
+     </configuration>
+-    <configuration name="SortGeoZones" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
++    <configuration name="FirefoxNightlyTest.myFirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+       <ExternalSystemSettings>
+         <option name="executionName" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+@@ -157,7 +142,7 @@
+           <list>
+             <option value=":test" />
+             <option value="--tests" />
+-            <option value="&quot;ru.stqa.litecart.tests.SortGeoZones&quot;" />
++            <option value="&quot;ru.stqa.litecart.browsers.FirefoxNightlyTest.myFirstTest&quot;" />
+           </list>
+         </option>
+         <option name="vmOptions" />
+@@ -165,7 +150,7 @@
+       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+       <DebugAllEnabled>false</DebugAllEnabled>
+-      <RunAsTest>true</RunAsTest>
++      <ForceTestExec>true</ForceTestExec>
+       <method v="2" />
+     </configuration>
+     <configuration name="StylesTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+@@ -189,7 +174,7 @@
+       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+       <DebugAllEnabled>false</DebugAllEnabled>
+-      <RunAsTest>true</RunAsTest>
++      <ForceTestExec>true</ForceTestExec>
+       <method v="2" />
+     </configuration>
+     <configuration name="StylesTests.testStyles" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+@@ -213,25 +198,18 @@
+       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+       <DebugAllEnabled>false</DebugAllEnabled>
+-      <RunAsTest>true</RunAsTest>
++      <ForceTestExec>true</ForceTestExec>
+       <method v="2" />
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Gradle.AddNewProductTests" />
+-        <item itemvalue="Gradle.AddNewProductTests.testAddNewProduct" />
+         <item itemvalue="Gradle.StylesTests" />
++        <item itemvalue="Gradle.FirefoxNightlyTest.myFirstTest" />
+         <item itemvalue="Gradle.StylesTests.testStyles" />
+-        <item itemvalue="Gradle.SortGeoZones" />
++        <item itemvalue="Gradle.AddToCartTest.testAddToCart" />
++        <item itemvalue="Gradle.AddToCartTest" />
+       </list>
+     </recent_temporary>
+-  </component>
+-  <component name="SharedIndexes">
+-    <attachedChunks>
+-      <set>
+-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+-      </set>
+-    </attachedChunks>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -291,87 +269,42 @@
+       <option name="project" value="LOCAL" />
+       <updated>1706433628301</updated>
+     </task>
+-    <task id="LOCAL-00008" summary="изменил локатор поиска названия станы, создал сортированую копию списка и сравнил списки, задание№8 часть 1">
+-      <option name="closed" value="true" />
+-      <created>1707032910315</created>
++    <task id="LOCAL-00008" summary="сделал добавление в корзину товара с размером и без размера, задание №13">
++      <created>1707801098919</created>
+       <option name="number" value="00008" />
+       <option name="presentableId" value="LOCAL-00008" />
+       <option name="project" value="LOCAL" />
+-      <updated>1707032910318</updated>
++      <updated>1707801098919</updated>
+     </task>
+-    <task id="LOCAL-00009" summary="добавил переход на страницу Edit Country, получение списка часовых поясов, сортировку копии списка и сравнение списков, задание№8 часть 2">
+-      <option name="closed" value="true" />
+-      <created>1707049813116</created>
++    <task id="LOCAL-00009" summary="удаление товаров из карзины, задание №13">
++      <created>1707970423650</created>
+       <option name="number" value="00009" />
+       <option name="presentableId" value="LOCAL-00009" />
+       <option name="project" value="LOCAL" />
+-      <updated>1707049813116</updated>
++      <updated>1707970423650</updated>
+     </task>
+-    <task id="LOCAL-00010" summary="добавил проверку количества стикеров у товара и проверку текста стикера, задание№7">
+-      <option name="closed" value="true" />
+-      <created>1707238119266</created>
++    <task id="LOCAL-00010" summary="сделаны 3 пункта, задание №10">
++      <created>1708015352364</created>
+       <option name="number" value="00010" />
+       <option name="presentableId" value="LOCAL-00010" />
+       <option name="project" value="LOCAL" />
+-      <updated>1707238119266</updated>
++      <updated>1708015352364</updated>
+     </task>
+-    <task id="LOCAL-00011" summary="добавил проверку сортировки списка зон у стран, задание №9">
+-      <option name="closed" value="true" />
+-      <created>1707271465731</created>
++    <task id="LOCAL-00011" summary="тест работает в Firefox, задание №10">
++      <created>1708145026074</created>
+       <option name="number" value="00011" />
+       <option name="presentableId" value="LOCAL-00011" />
+       <option name="project" value="LOCAL" />
+-      <updated>1707271465731</updated>
++      <updated>1708145026074</updated>
+     </task>
+-    <task id="LOCAL-00012" summary="убрал проверку текста стикера, задание №7">
+-      <option name="closed" value="true" />
+-      <created>1707324409663</created>
++    <task id="LOCAL-00012" summary="Firefox, задание №10">
++      <created>1708151733918</created>
+       <option name="number" value="00012" />
+       <option name="presentableId" value="LOCAL-00012" />
+       <option name="project" value="LOCAL" />
+-      <updated>1707324409663</updated>
+-    </task>
+-    <task id="LOCAL-00013" summary="исправил локатор для товара, задание №7">
+-      <option name="closed" value="true" />
+-      <created>1707324890483</created>
+-      <option name="number" value="00013" />
+-      <option name="presentableId" value="LOCAL-00013" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1707324890483</updated>
+-    </task>
+-    <task id="LOCAL-00014" summary="исправил локатор для товара, задание №7">
+-      <option name="closed" value="true" />
+-      <created>1707325089630</created>
+-      <option name="number" value="00014" />
+-      <option name="presentableId" value="LOCAL-00014" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1707325089630</updated>
+-    </task>
+-    <task id="LOCAL-00015" summary="исправил копирование списков, убрал пустую строку из списка зон, задание №8">
+-      <option name="closed" value="true" />
+-      <created>1707357750448</created>
+-      <option name="number" value="00015" />
+-      <option name="presentableId" value="LOCAL-00015" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1707357750448</updated>
+-    </task>
+-    <task id="LOCAL-00016" summary="убрал вывод в консоль списков, задание №8">
+-      <option name="closed" value="true" />
+-      <created>1707357830556</created>
+-      <option name="number" value="00016" />
+-      <option name="presentableId" value="LOCAL-00016" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1707357830556</updated>
++      <updated>1708151733918</updated>
+     </task>
+-    <task id="LOCAL-00017" summary="исправил копирование списка, задание №9">
+-      <option name="closed" value="true" />
+-      <created>1707358546269</created>
+-      <option name="number" value="00017" />
+-      <option name="presentableId" value="LOCAL-00017" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1707358546269</updated>
+-    </task>
+-    <option name="localTasksCounter" value="18" />
++    <option name="localTasksCounter" value="13" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+@@ -382,24 +315,60 @@
+     <MESSAGE value="добавил проверку наличия элемента h1 на страеице" />
+     <MESSAGE value="добавил получение списков разделов и списков подразделов в SidebarTests" />
+     <MESSAGE value="добавил проверку наличия стикеров у товаров на главной странице StickerShortTests, задание №7" />
+-    <MESSAGE value="изменил локатор поиска названия станы, создал сортированую копию списка и сравнил списки, задание№8 часть 1" />
+-    <MESSAGE value="добавил переход на страницу Edit Country, получение списка часовых поясов, сортировку копии списка и сравнение списков, задание№8 часть 2" />
+-    <MESSAGE value="добавил проверку количества стикеров у товара и проверку текста стикера, задание№7" />
+-    <MESSAGE value="добавил проверку сортировки списка зон у стран, задание №9" />
+-    <MESSAGE value="убрал проверку текста стикера, задание №7" />
+-    <MESSAGE value="исправил локатор для товара, задание №7" />
+-    <MESSAGE value="исправил копирование списков, убрал пустую строку из списка зон, задание №8" />
+-    <MESSAGE value="убрал вывод в консоль списков, задание №8" />
+-    <MESSAGE value="исправил копирование списка, задание №9" />
+-    <option name="LAST_COMMIT_MESSAGE" value="исправил копирование списка, задание №9" />
++    <MESSAGE value="сделал добавление в корзину товара с размером и без размера, задание №13" />
++    <MESSAGE value="удаление товаров из карзины, задание №13" />
++    <MESSAGE value="сделаны 3 пункта, задание №10" />
++    <MESSAGE value="тест работает в Firefox, задание №10" />
++    <MESSAGE value="Firefox, задание №10" />
++    <option name="LAST_COMMIT_MESSAGE" value="Firefox, задание №10" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+       <breakpoints>
+         <line-breakpoint enabled="true" type="java-line">
+           <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java</url>
++          <line>29</line>
++          <option name="timeStamp" value="2" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java</url>
++          <line>30</line>
++          <option name="timeStamp" value="3" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java</url>
++          <line>28</line>
++          <option name="timeStamp" value="21" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java</url>
++          <line>33</line>
++          <option name="timeStamp" value="22" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java</url>
++          <line>34</line>
++          <option name="timeStamp" value="23" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java</url>
+           <line>35</line>
+           <option name="timeStamp" value="24" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/StickerTests.java</url>
++          <line>36</line>
++          <option name="timeStamp" value="25" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java</url>
++          <line>77</line>
++          <option name="timeStamp" value="26" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/SortCountriesTests.java</url>
++          <line>36</line>
++          <option name="timeStamp" value="27" />
+         </line-breakpoint>
+       </breakpoints>
+     </breakpoint-manager>
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_21\" default=\"true\" project-jdk-name=\"openjdk-21\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	
++++ b/.idea/misc.xml	
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ExternalStorageConfigurationManager" enabled="true" />
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/test/java/ru/stqa/litecart/tests/TestBase.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ru.stqa.litecart.tests;\r\n\r\nimport org.openqa.selenium.remote.Browser;\r\nimport org.testng.annotations.AfterSuite;\r\nimport org.testng.annotations.BeforeSuite;\r\nimport ru.stqa.litecart.appmanager.ApplicationManager;\r\n\r\npublic class TestBase {\r\n\r\n    protected static final ApplicationManager app = new ApplicationManager(Browser.FIREFOX);\r\n\r\n    @BeforeSuite\r\n    public void setUp () throws Exception {\r\n        app.init();\r\n        }\r\n\r\n    @AfterSuite\r\n    public void tearDown () {\r\n        app.stop();\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/ru/stqa/litecart/tests/TestBase.java b/src/test/java/ru/stqa/litecart/tests/TestBase.java
+--- a/src/test/java/ru/stqa/litecart/tests/TestBase.java	
++++ b/src/test/java/ru/stqa/litecart/tests/TestBase.java	
+@@ -1,22 +1,47 @@
+ package ru.stqa.litecart.tests;
+ 
++import org.openqa.selenium.WebDriver;
++import org.openqa.selenium.firefox.FirefoxDriver;
+ import org.openqa.selenium.remote.Browser;
++import org.testng.annotations.AfterMethod;
+ import org.testng.annotations.AfterSuite;
++import org.testng.annotations.BeforeMethod;
+ import org.testng.annotations.BeforeSuite;
+ import ru.stqa.litecart.appmanager.ApplicationManager;
+ 
++import java.util.concurrent.TimeUnit;
++
+ public class TestBase {
+ 
+     protected static final ApplicationManager app = new ApplicationManager(Browser.FIREFOX);
+-
++    //private final ApplicationManager app = new ApplicationManager();
++    protected WebDriver wd;
++    public ApplicationManager getApp () {
++        return app;
++    }
+     @BeforeSuite
+     public void setUp () throws Exception {
+         app.init();
+         }
++    /*
++    @BeforeMethod
++    public void setUp() throws Exception {
++        wd = new FirefoxDriver();
++        wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
++    }
++    */
+ 
+     @AfterSuite
+     public void tearDown () {
+         app.stop();
+     }
+ 
++
++
++    /*
++    @AfterMethod
++    public void tearDown () {
++        wd.quit();
++    }
++     */
+ }
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"gradleJvm\" value=\"openjdk-21\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n          </set>\r\n        </option>\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	
++++ b/.idea/gradle.xml	
+@@ -5,7 +5,7 @@
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-        <option name="gradleJvm" value="openjdk-21" />
++        <option name="gradleJvm" value="17" />
+         <option name="modules">
+           <set>
+             <option value="$PROJECT_DIR$" />
