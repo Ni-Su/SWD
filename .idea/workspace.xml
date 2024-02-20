@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0266a04-2d44-4364-bbfa-7f6de4084775" name="Changes" comment="в логе браузера выводим сообщения любого уровня, закомментировал лишнее, задание №17">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/LogsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/LogsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/AddToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/litecart/tests/AddToCartTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,36 +59,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.AddNewProductTests.executor": "Run",
-    "Gradle.AddNewProductTests.testAddNewProduct.executor": "Run",
-    "Gradle.AddToCartTest.executor": "Run",
-    "Gradle.AddToCartTest.testAddToCart.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.NewUserRegistrationTests.testNewUserReg.executor": "Run",
-    "Gradle.NewWindowTests.testNewWindow.executor": "Run",
-    "Gradle.SortCountriesTests.executor": "Run",
-    "Gradle.SortCountriesTests.testSortCountries.executor": "Run",
-    "Gradle.SortGeoZones.executor": "Run",
-    "Gradle.SortGeoZones.testSortGeoZones.executor": "Run",
-    "Gradle.StickerShortTests.testSticker.executor": "Run",
-    "Gradle.StylesTests.executor": "Run",
-    "Gradle.StylesTests.testStyles.executor": "Run",
-    "Gradle.Upgrade Gradle wrapper.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/darkhorse/IdeaProjects/java_pft",
-    "onboarding.tips.debug.path": "C:/Users/darkhorse/IdeaProjects/SWD/src/main/java/ru/stqa/litecard/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AddNewProductTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AddNewProductTests.testAddNewProduct.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AddToCartTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AddToCartTest.testAddToCart.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NewUserRegistrationTests.testNewUserReg.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NewWindowTests.testNewWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SortCountriesTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SortCountriesTests.testSortCountries.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SortGeoZones.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SortGeoZones.testSortGeoZones.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StickerShortTests.testSticker.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StylesTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StylesTests.testStyles.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/darkhorse/IdeaProjects/java_pft&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/darkhorse/IdeaProjects/SWD/src/main/java/ru/stqa/litecard/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\darkhorse\IdeaProjects\SWD\src\test\resources" />
@@ -96,7 +96,7 @@
       <recent name="C:\Users\darkhorse\IdeaProjects\SWD\src\test\java\ru\stqa\litecard" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LogsTests.testLogs">
+  <component name="RunManager" selected="Gradle.AddToCartTest.testAddToCart">
     <configuration name="AddToCartTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -219,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AddToCartTest.testAddToCart" />
         <item itemvalue="Gradle.LogsTests.testLogs" />
         <item itemvalue="Gradle.LogsTests" />
         <item itemvalue="Gradle.NewWindowTests.testNewWindow" />
         <item itemvalue="Gradle.AddToCartTest" />
-        <item itemvalue="Gradle.AddToCartTest.testAddToCart" />
       </list>
     </recent_temporary>
   </component>

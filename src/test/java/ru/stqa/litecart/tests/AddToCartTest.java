@@ -47,6 +47,7 @@ public class AddToCartTest {
                 String nextItem = String.valueOf(items+1);
                 System.out.println("nextItem " + nextItem);
                 wait.until(ExpectedConditions.textToBePresentInElement(item, nextItem));
+                items = Integer.parseInt(wd.findElement(By.cssSelector("span.quantity")).getAttribute("innerText"));
                 wd.findElement(By.linkText("Home")).click();
                 wd.findElement(By.cssSelector("div#box-most-popular li.product:first-child")).click();
                 //добавить выход из цикла if, заменить return
